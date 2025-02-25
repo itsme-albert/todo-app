@@ -24,7 +24,7 @@ export const TaskList = ({tasks,setToDone,removeTask}:PropOfList) => {
                     <tbody>
                         {tasks.map((task, index) => (
                             <tr key={index} className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                                <th scope="row" className="px-6 py-4 text-lg font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                <th scope="row" className="px-6 py-4 text-lg text-black font-medium whitespace-nowrap dark:text-white">
                                     {task}
                                 </th>
                                 <td className="px-6 py-4 bg-white">
