@@ -49,7 +49,7 @@ export default function Home() {
           <div className="relative">
             <input 
               type="text"  
-              className="text-lg block w-full p-4 ps-10 text-gray-900 border border-gray-300 rounded-md bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="text-lg text-black block w-full p-4 ps-10 border border-gray-300 rounded-md bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="What do you want to do?" 
               value={initial} 
               onChange={(e) => setInitial(e.target.value)} 
