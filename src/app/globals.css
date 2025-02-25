@@ -9,6 +9,7 @@
 
 *{
   font-family: 'Courier New', Courier, monospace;
+  background-color: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
