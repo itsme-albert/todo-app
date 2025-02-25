@@ -6,7 +6,7 @@ type PropOfTaskDone = {
 export const TaskDone = ({doneTasks}:PropOfTaskDone) => {
   return (
     <div>
-      <p className="text-2xl font-bold">DONE TASK</p>
+      <p className="text-xl font-bold">DONE TASK</p>
       <ul className="text-lg">
         {doneTasks.map((task, index) => (
             <li className="flex text-lg" key={index}>{task}<FaCheck/> </li>
