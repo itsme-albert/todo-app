@@ -43,7 +43,7 @@ export default function Home() {
   };
 
   return (
-    <div className="m-4 sm:m-10 md:m-20 bg-white">
+    <div className="p-4 sm:p-10 md:p-20 bg-white w-full">
       <div className="p-3">
         <form className="w-full max-w-lg mx-auto">
           <div className="relative">
