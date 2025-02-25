@@ -9,7 +9,7 @@ export const TaskDone = ({doneTasks}:PropOfTaskDone) => {
       <p className="text-xl font-bold text-black bg-green-200">DONE TASKS</p>
       <ul className="text-lg">
         {doneTasks.map((task, index) => (
-            <li className="flex text-lg text-black" key={index}>{task}<FaCheck/> </li>
+            <li className="flex text-lg text-black bg-green-200" key={index}>{task}<FaCheck/> </li>
         ))}
         
       </ul>
